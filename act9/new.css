@@ -1,0 +1,17 @@
+.body{ display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+.form{ background-color: lightgrey;
+    
+}
+@media( max-width:700px){
+    .body{flex-direction: column;
+        
+}
+.form{
+    margin-top: 10px;
+}
+}
